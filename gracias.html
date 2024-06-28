@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Yesica Movia | Abogada Especialista</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --light-bg: #bee1e7;
+            --white: #dbd6d6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            overflow-x: hidden;
+        }
+        .hero-content h1{
+            color: white;
+        }
+        .hero-content p{
+            color: white;
+        }
+       
+        
+        
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            transition: background-color 0.3s ease;
+        }
+
+        header.scrolled {
+            background-color: rgba(44, 62, 80, 0.9);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+       
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: var(--accent-color);
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px;
+            background-color: #34495e;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .copyright {
+            background-color: #f9fbfd;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-links {
+        margin-top: 1rem;
+    }
+}
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+            }
+
+            nav {
+                margin-top: 1rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-content p {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 4rem 0;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .about-section {
+                flex-direction: column;
+                gap: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .btn {
+                display: block;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">YM & Asociados</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <h1 id="inicio" class="gracias">¡GRACIAS!</h1>
+        <p>A LA BREVEDAD NOS ESTAREMOS PONIENDO EN CONTACTO CONTIGO.</p>
+    </div>
+    </header>
+    <BR><BR><BR><BR><BR><BR>
+        <BR><BR><BR><BR><BR>
+            <div class="content">
+                <h1 id="inicio" class="gracias">¡GRACIAS!</h1>
+                <p>A LA BREVEDAD NOS ESTAREMOS PONIENDO EN CONTACTO CONTIGO.</p>
+            </div>
+     <BR><BR><BR><BR><BR>
+        <BR><BR><BR><BR><BR>
+           
+
+    
+            <div class="copyright">
+                <small>
+                    
+                    <b>&COPY; 2024 developer By @Ezequiel_Movia "Derechos Cedidos solo con fines educativos."</b>
+                </small>
+            </div>
+        </div>
+    </footer>
